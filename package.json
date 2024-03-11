@@ -36,7 +36,11 @@
     "file",
     "filesystem"
   ],
-  "files": ["dist/", "LICENSE", "package.json"],
+  "files": [
+    "dist/",
+    "LICENSE",
+    "package.json"
+  ],
   "scripts": {
     "build": "tsup",
     "build:prod": "npm run build -- --minify",
@@ -50,6 +54,7 @@
     "release": "npm run build:prod && changeset publish",
     "prepare": "lefthook install"
   },
+  "packageManager": "pnpm@8.15.4",
   "dependencies": {
     "execa": "^8.0.1",
     "meow": "^13.2.0"
