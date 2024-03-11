@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { version } from "@package";
 import meow from "meow";
 
 const cli = meow(
@@ -11,6 +12,7 @@ const cli = meow(
     --reverse, -r   Reverse output
     --silent, -s    Silent output, except \`onError\` command
     --onError       Execute command on error
+    --version       Show version
     --help          Show this help message
 
 	Examples
@@ -28,6 +30,13 @@ const cli = meow(
         type: "boolean",
         shortFlag: "s",
         default: false,
+      },
+      version: {
+        type: "boolean",
+        default: false,
+        isMultiple: false,
+        isRequired: false,
+        shortFlag: "v",
       },
       onError: {
         type: "string",
@@ -54,6 +63,12 @@ consola.info = (...args: any) => consola("info", ...args);
 consola.error = (...args: any) => consola("error", ...args);
 
 const main = async () => {
+  // show version
+  if (cli.flags.version) {
+    console.log(version);
+    return;
+  }
+
   const filePath = cli.input[0];
   const { reverse } = cli.flags;
 

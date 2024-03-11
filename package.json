@@ -36,9 +36,7 @@
     "file",
     "filesystem"
   ],
-  "files": [
-    "dist/"
-  ],
+  "files": ["dist/", "LICENSE", "package.json"],
   "scripts": {
     "build": "tsup",
     "build:prod": "npm run build -- --minify",
