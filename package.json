@@ -1,7 +1,7 @@
 {
   "name": "@nurliman/file-exists-cli",
   "description": "Check if a file exists",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "main": "dist/index.js",
@@ -36,7 +36,11 @@
     "file",
     "filesystem"
   ],
-  "files": ["dist/", "LICENSE", "package.json"],
+  "files": [
+    "dist/",
+    "LICENSE",
+    "package.json"
+  ],
   "scripts": {
     "build": "tsup",
     "build:prod": "npm run build -- --minify",
