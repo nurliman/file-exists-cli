@@ -69,6 +69,6 @@
     "typescript": "^5.4.2"
   },
   "lint-staged": {
-    "**/*.+(js|mjs|cjs|jsx|ts|cts|mts|tsx)": "biome check --apply"
+    "**/*.+(js|mjs|cjs|jsx|ts|cts|mts|tsx)": "biome check --apply --no-errors-on-unmatched"
   }
 }
