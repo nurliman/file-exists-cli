@@ -53,22 +53,22 @@
     "release": "npm run build:prod && changeset publish",
     "prepare": "lefthook install"
   },
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@9.0.6",
   "dependencies": {
     "execa": "^8.0.1",
     "meow": "^13.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.6.4",
+    "@biomejs/biome": "1.7.1",
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.1",
-    "@swc/core": "^1.4.12",
+    "@swc/core": "^1.4.17",
     "@tsconfig/recommended": "^1.0.6",
     "@types/node": "^20",
-    "lefthook": "^1.6.8",
+    "lefthook": "^1.6.10",
     "lint-staged": "^15.2.2",
     "tsup": "^8.0.2",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   },
   "lint-staged": {
     "**/*.+(js|mjs|cjs|jsx|ts|cts|mts|tsx)": "biome check --apply --no-errors-on-unmatched"
