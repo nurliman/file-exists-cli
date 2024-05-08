@@ -1,5 +1,21 @@
 # @nurliman/file-exists-cli
 
+## 0.1.5
+
+### Patch Changes
+
+- [`1d5dde7`](https://github.com/nurliman/file-exists-cli/commit/1d5dde75ee7a4bf36bd2f42826ebc44d59bf1495) Thanks [@nurliman](https://github.com/nurliman)! - Update sourcemap option in tsup.config.ts
+
+- [`0a6d27a`](https://github.com/nurliman/file-exists-cli/commit/0a6d27ae2947a77b1af197ee17e00fd72ba4abed) Thanks [@nurliman](https://github.com/nurliman)! - use bun instead of pnpm
+
+- [`9bfbaed`](https://github.com/nurliman/file-exists-cli/commit/9bfbaedb20e48944763c4e19cc3f59a4a326c049) Thanks [@nurliman](https://github.com/nurliman)! - update target to "es6" in tsup.config.ts
+
+- [`a45bc14`](https://github.com/nurliman/file-exists-cli/commit/a45bc14bdbaeefafbcaefd2aaa62d3f7b86a6b09) Thanks [@nurliman](https://github.com/nurliman)! - update dependencies
+
+- [`8c45a83`](https://github.com/nurliman/file-exists-cli/commit/8c45a83db4fcd5f5a82d1e73ca1dc340f7be42c7) Thanks [@nurliman](https://github.com/nurliman)! - drop swc
+
+- [`0d951d4`](https://github.com/nurliman/file-exists-cli/commit/0d951d4dcd84a98cf21e209c9af9d68c65058095) Thanks [@nurliman](https://github.com/nurliman)! - Update target and module options in tsconfig.json
+
 ## 0.1.4
 
 ### Patch Changes
