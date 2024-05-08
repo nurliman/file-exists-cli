@@ -1,5 +1,13 @@
 # @nurliman/file-exists-cli
 
+## 0.2.1
+
+### Patch Changes
+
+- [`2e14355`](https://github.com/nurliman/file-exists-cli/commit/2e14355cfd1a25b0282decbbc709cbccff3eacda) Thanks [@nurliman](https://github.com/nurliman)! - Update shebang in index.ts to use env node
+
+- [`e7378ff`](https://github.com/nurliman/file-exists-cli/commit/e7378ff135e125994243d10464f9bf3a0c2f3c9b) Thanks [@nurliman](https://github.com/nurliman)! - back to use tsup for bundling
+
 ## 0.2.0
 
 ### Minor Changes
