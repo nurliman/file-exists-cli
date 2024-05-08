@@ -1,5 +1,11 @@
 # @nurliman/file-exists-cli
 
+## 0.1.7
+
+### Patch Changes
+
+- [`7988068`](https://github.com/nurliman/file-exists-cli/commit/7988068b9a6955bd003573adfd197032caed1e9e) Thanks [@nurliman](https://github.com/nurliman)! - Update build script
+
 ## 0.1.6
 
 ### Patch Changes
