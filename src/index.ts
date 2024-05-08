@@ -1,9 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
-import pkg from "@package";
+import { version } from "@package";
 import meow from "meow";
-
-const version = pkg.version;
 
 const cli = meow(
   `
