@@ -1,5 +1,11 @@
 # @nurliman/file-exists-cli
 
+## 0.2.0
+
+### Minor Changes
+
+- [`54548cf`](https://github.com/nurliman/file-exists-cli/commit/54548cf92b85aec4ee96e04bd44f327c86dca973) Thanks [@nurliman](https://github.com/nurliman)! - Update package.json to use commonjs module type
+
 ## 0.1.7
 
 ### Patch Changes
