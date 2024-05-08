@@ -2,7 +2,7 @@
   "name": "@nurliman/file-exists-cli",
   "description": "Check if a file exists",
   "version": "0.1.7",
-  "type": "module",
+  "type": "commonjs",
   "main": "dist/index.js",
   "bin": {
     "exists": "./dist/index.js"
@@ -35,13 +35,9 @@
     "file",
     "filesystem"
   ],
-  "files": [
-    "dist/",
-    "*.md",
-    "package.json"
-  ],
+  "files": ["dist/", "*.md", "package.json"],
   "scripts": {
-    "build": "bun build src/index.ts --outdir=dist --target=node --sourcemap=external",
+    "build": "ncc build src/index.ts -o dist",
     "prebuild": "npm run check && npm run lint:fix",
     "check": "tsc --noEmit",
     "lint": "biome check .",
@@ -72,7 +68,5 @@
   "lint-staged": {
     "**/*.+(js|mjs|cjs|jsx|ts|cts|mts|tsx)": "biome check --apply --no-errors-on-unmatched"
   },
-  "trustedDependencies": [
-    "@biomejs/biome"
-  ]
+  "trustedDependencies": ["@biomejs/biome"]
 }
