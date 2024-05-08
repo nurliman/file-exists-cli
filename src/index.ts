@@ -62,7 +62,7 @@ consola.info = (...args: any) => consola("info", ...args);
 // biome-ignore lint/suspicious/noExplicitAny: <explanation>
 consola.error = (...args: any) => consola("error", ...args);
 
-const main = async () => {
+async function main() {
   // show version
   if (cli.flags.version) {
     console.log(version);
@@ -109,6 +109,6 @@ const main = async () => {
   }
 
   process.exit(exitCode);
-};
+}
 
 main();

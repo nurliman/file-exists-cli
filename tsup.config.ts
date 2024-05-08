@@ -5,6 +5,6 @@ export default defineConfig({
   format: ["esm"],
   sourcemap: "inline",
   clean: true,
-  dts: true,
+  dts: false,
   target: "node16",
 });
