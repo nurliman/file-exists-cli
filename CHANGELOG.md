@@ -1,5 +1,11 @@
 # @nurliman/file-exists-cli
 
+## 0.1.6
+
+### Patch Changes
+
+- [`35a5b9b`](https://github.com/nurliman/file-exists-cli/commit/35a5b9bbb444248ef1fe2c859dce975a703dbef5) Thanks [@nurliman](https://github.com/nurliman)! - Update prebuild script in package.json
+
 ## 0.1.5
 
 ### Patch Changes
