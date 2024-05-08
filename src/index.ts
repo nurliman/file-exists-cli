@@ -105,7 +105,9 @@ async function main() {
       stdio: "inherit",
     });
 
-    exitCode = onErrorReturn.exitCode;
+    if (typeof onErrorReturn.exitCode === "number") {
+      exitCode = onErrorReturn.exitCode;
+    }
   }
 
   process.exit(exitCode);
