@@ -42,15 +42,14 @@
   ],
   "scripts": {
     "build": "tsup",
-    "build:prod": "npm run build -- --minify",
-    "prebuild:prod": "npm run check && npm run lint:fix",
+    "prebuild": "npm run check && npm run lint:fix",
     "check": "tsc --noEmit",
     "lint": "biome check .",
     "lint:fix": "biome check . --apply",
     "lint-staged": "lint-staged",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "npm run build:prod && changeset publish",
+    "release": "npm run build && changeset publish",
     "prepare": "lefthook install"
   },
   "packageManager": "bun@1.1.7",
