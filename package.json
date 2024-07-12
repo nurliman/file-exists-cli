@@ -1,7 +1,7 @@
 {
   "name": "@nurliman/file-exists-cli",
   "description": "Check if a file exists",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -35,7 +35,11 @@
     "file",
     "filesystem"
   ],
-  "files": ["dist/", "*.md", "package.json"],
+  "files": [
+    "dist/",
+    "*.md",
+    "package.json"
+  ],
   "scripts": {
     "build": "tsup",
     "prebuild": "npm run check && npm run lint:fix",
@@ -68,5 +72,9 @@
   "lint-staged": {
     "**/*.+(js|mjs|cjs|jsx|ts|cts|mts|tsx)": "biome check --write --no-errors-on-unmatched"
   },
-  "trustedDependencies": ["@biomejs/biome", "esbuild", "lefthook"]
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "esbuild",
+    "lefthook"
+  ]
 }
