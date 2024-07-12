@@ -1,5 +1,13 @@
 # @nurliman/file-exists-cli
 
+## 1.0.1
+
+### Patch Changes
+
+- [`7246cdf`](https://github.com/nurliman/file-exists-cli/commit/7246cdfa1106422e921ced8a0afee9a0bb0b65ad) Thanks [@nurliman](https://github.com/nurliman)! - update dependencies
+
+- [`3851e35`](https://github.com/nurliman/file-exists-cli/commit/3851e355900bd91fa17db649fbe7912273e9d948) Thanks [@nurliman](https://github.com/nurliman)! - Update lint:fix script to use --write option
+
 ## 1.0.0
 
 ### Major Changes
