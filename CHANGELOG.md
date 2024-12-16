@@ -1,5 +1,11 @@
 # @nurliman/file-exists-cli
 
+## 1.0.2
+
+### Patch Changes
+
+- [`bb02c1f`](https://github.com/nurliman/file-exists-cli/commit/bb02c1f71d5df72a69458c257bd084532fdf66fa) Thanks [@nurliman](https://github.com/nurliman)! - update dependencies
+
 ## 1.0.1
 
 ### Patch Changes
